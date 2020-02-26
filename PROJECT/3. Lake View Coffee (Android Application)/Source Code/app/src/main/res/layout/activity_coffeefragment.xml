@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:padding="3dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/liatmeja"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:text="TABLE : "
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nomeja"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/liatcapuchino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Cappuccino              : "
+        android:layout_marginTop="6dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/cappuccino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="6dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/liatespreso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Espresso                  : "
+        android:layout_marginTop="32dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/espresso"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="32dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/liatmacchiato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Macchiato                : "
+        android:layout_marginTop="58dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/macchiato"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="58dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/liatmocha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Mocha                       : "
+        android:layout_marginTop="84dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/mocha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="84dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/liatristretto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Ristretto                   : "
+        android:layout_marginTop="110dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/ristretto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="110dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/liatcafe_latte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Cafe Latte                : "
+        android:layout_marginTop="136dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/cafe_latte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="136dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/liatamericano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Americano               : "
+        android:layout_marginTop="162dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/americano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="162dp"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/liatmocha_late"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Mocha Late             : "
+        android:layout_marginTop="188dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/mocha_late"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="188dp"
+        android:padding="2dp"
+        />
+
+    <TextView
+        android:id="@+id/liataffogato_late"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:text="Affogato Late          : "
+        android:layout_marginTop="214dp"
+        android:maxLines="1"
+        android:padding="2dp"
+        />
+    <TextView
+        android:id="@+id/affogato_late"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="214dp"
+        android:padding="2dp"
+        />
+        <TextView
+            android:id="@+id/liattotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="Amount                     : "
+            android:layout_marginTop="243dp"
+            android:maxLines="1"
+            android:padding="2dp"
+            />
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="240dp"
+            android:padding="2dp"
+            />
+        <TextView
+            android:id="@+id/liattanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="Date of Purchase    : "
+            android:layout_marginTop="270dp"
+            android:maxLines="1"
+            android:padding="2dp"
+            />
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="270dp"
+            android:padding="2dp"
+            />
+        <TextView
+            android:id="@+id/liatjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:text="Time of Purchase    : "
+            android:layout_marginTop="300dp"
+            android:maxLines="1"
+            android:padding="2dp"
+            />
+        <TextView
+            android:id="@+id/jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="285dp"
+            android:padding="2dp"
+            />
+
+
+    </RelativeLayout>
+
+

@@ -1,0 +1,21 @@
+cappuccino
+espresso
+macchiato
+mocha
+ristretto
+cafe_latte
+americano
+mocha_late
+affogato_late
+
+CAPPUCCINO
+ESPRESSO
+MACCHIATO
+MOCHA
+RISTRETTO
+CAFE LATTE
+AMERICANO
+MOCHA LATE
+AFFOGATO LATE
+
+

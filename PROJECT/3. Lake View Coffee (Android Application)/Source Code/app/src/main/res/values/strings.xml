@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lake View Coffee</string>
+    <string name="empty_list_text">The Order is Empty</string>
+    <string name="add_record">Add</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+
+
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+</resources>
